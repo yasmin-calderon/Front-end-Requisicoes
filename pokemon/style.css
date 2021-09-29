@@ -1,0 +1,116 @@
+input, button {
+  all: unset;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #DEDEDE;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  min-height: 100vh;
+  padding: 50px;
+
+  font-family: 'Concert One', cursive;
+}
+
+.container__title {
+  background-image: url(assets/pokedex.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 200px;
+
+  color: #fffb06;
+  font-size: 50px;
+  text-shadow: 
+  -1px -1px 0px #000000, 
+  -1px 1px 0px #000000,      
+   3px -1px 0px #000000,    
+   3px 0px 0px #000000;
+
+   margin-bottom: 30px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: #DC0A2D;
+
+  font-size: 20px;
+
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #DC0A2D;
+  color: #464242;
+
+  font-family: 'Concert One', cursive;
+
+  height: 30px;
+
+  margin-bottom: 10px;
+}
+
+input:focus {
+  border-bottom: 2px solid #DC0A2D;
+  border-right: 2px solid #DC0A2D;
+}
+
+.pokemon-promise {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #DC0A2D;
+  color: #DC0A2D;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+  padding: 20px;
+}
+
+.img {
+  background-color: #29A5F2;
+  border-radius: 5px;
+  border: 1px solid #DC0A2D;
+
+  width: 150px;
+}
+
+.habilidades {
+  color: #464242;
+}
+
+.habilidades {
+  background-color: #22d12e;
+  border-radius: 5px;
+  border: 1px solid #000000;
+
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}

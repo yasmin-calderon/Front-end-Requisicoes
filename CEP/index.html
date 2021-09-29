@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta CEP</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Cadastro</h1>
+    <form>
+      <div class="input">
+        <label for="nome">Nome</label>
+        <input id="nome" type="text">
+      </div>
+      <div class="input">
+        <label for="email">E-mail</label>
+        <input id="email" type="email">
+      </div>
+      <div class="input">
+        <label for="cep">CEP</label>
+        <input id="cep" type="text">
+      </div>
+      <div class="input">
+        <label for="cidade">Cidade</label>
+        <input id="cidade" type="text">
+      </div>
+      <div class="input">
+        <label for="rua">Rua</label>
+        <input id="rua" type="text">
+      </div>
+      <div class="input">
+        <label for="numero">Número</label>
+        <input id="numero" type="number">
+      </div>
+    </form>
+  </div>
+  <div class="modal hidden">
+    <div class="erro">
+      <h1>Ops</h1>
+      <p></p>
+      <button>Okay!</button>
+    </div>
+  </div>
+</body>
+
+</html>
